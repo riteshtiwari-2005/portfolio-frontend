@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://portfolio-backend-2eql.onrender.com/api',
   timeout: 10000,
 });
 
