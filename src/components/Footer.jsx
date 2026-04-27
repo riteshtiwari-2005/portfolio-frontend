@@ -13,11 +13,11 @@ export default function Footer() {
           © {year} — Built with MERN Stack
         </p>
         <div className="flex gap-6">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/riteshtiwari-2005" target="_blank" rel="noopener noreferrer"
             className="text-cream text-opacity-40 hover:text-gold transition-colors text-sm font-body">
             GitHub
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/ritesh-tiwari-871018275/" target="_blank" rel="noopener noreferrer"
             className="text-cream text-opacity-40 hover:text-gold transition-colors text-sm font-body">
             LinkedIn
           </a>
