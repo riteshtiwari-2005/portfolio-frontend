@@ -87,7 +87,7 @@ export default function About() {
 
   <a
     href="https://drive.google.com/file/d/11DQ_PeBRCkN3Vm14tJ-NW24SJTYQoKKA/view?usp=drive_link"
-    target="_blank"
+    download
     rel="noopener noreferrer"
     className="btn-outline"
   >
