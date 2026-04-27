@@ -2,7 +2,7 @@ import { useReveal } from '../hooks/useReveal';
 import { Link } from 'react-router-dom';
 
 const TIMELINE = [
- 
+
   { year: '2026', title: 'Computer Science Degree', company: 'University', desc: 'Graduated with honors, specializing in web technologies.' },
 ];
 
@@ -80,20 +80,20 @@ export default function About() {
         </div>
 
         {/* CTA */}
-       <div className="reveal flex flex-wrap gap-4">
-  <Link to="/contact" className="btn-primary">
-    Get In Touch
-  </Link>
+        <div className="reveal flex flex-wrap gap-4">
+          <Link to="/contact" className="btn-primary">
+            Get In Touch
+          </Link>
 
-  <a
-    href="https://drive.google.com/file/d/11DQ_PeBRCkN3Vm14tJ-NW24SJTYQoKKA/view?usp=drive_link"
-    download
-    rel="noopener noreferrer"
-    className="btn-outline"
-  >
-    Download Resume
-  </a>
-</div>
+          <a
+            href="https://drive.google.com/uc?export=download&id=11DQ_PeBRCkN3Vm14tJ-NW24SJTYQoKKA"
+            download
+            className="btn-outline"
+          >
+
+            Download Resume
+          </a>
+        </div>
       </div>
 
 
